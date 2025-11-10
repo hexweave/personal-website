@@ -1,0 +1,228 @@
+@font-face {
+  font-display: swap;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/inter-v19-latin-regular.woff2") format("woff2");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  font-family: "inter";
+  background-color: var(--base);
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+html {
+  font-size: 60%;
+}
+
+ul li {
+  padding: 4px;
+}
+
+p {
+  color: var(--text);
+  font-size: 1.6rem;
+}
+
+h4 {
+  font-size: 20px;
+  padding: 4px;
+  color: var(--pine);
+}
+
+h1 {
+  color: var(--pine);
+}
+
+h3 {
+  color: var(--text);
+}
+
+header {
+  margin-top: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem 9%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+nav a {
+  font-size: 1.8rem;
+  color: var(--text);
+  margin-left: 4rem;
+  transition: 0.3s ease;
+  border-bottom: 3px solid transparent;
+}
+
+nav a:hover,
+nav a.active {
+  color: var(--foam);
+  border-bottom: 3px solid var(--foam);
+}
+
+section {
+  min-height: 100vh;
+  padding: 5rem 9% 5rem;
+}
+
+p {
+  line-height: 1.4;
+  color: var(--text);
+}
+
+/*classes*/
+.home-content h3 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.social-icons a {
+  display: inline-flex;
+  height: 4rem;
+  font-size: 2rem;
+  margin: 3rem 1.5rem 3rem 0;
+  color: var(--text);
+}
+
+.typing-text {
+  font-size: 34px;
+  min-width: 280px;
+}
+
+.typing-text span {
+  position: relative;
+}
+
+.typing-text span::before {
+  content: "software developer";
+  color: var(--foam);
+  animation: words 20s infinite;
+}
+
+.typing-text span::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  border-left: 3px solid var(--base);
+  animation: cursor 1.3s infinite;
+}
+
+.box {
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 1rem;
+  padding: 20px;
+  color: var(--foam);
+}
+
+.box ul {
+  color: var(--text);
+  font-size: 1.6rem;
+  padding: 40px;
+}
+
+.about-me {
+  width: 40%;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8rem;
+
+}
+
+.logo {
+  font-size: 3rem;
+  color: var(--pine);
+  cursor: pointer;
+}
+
+.home .home-content h1 {
+  font-size: 6rem;
+  line-height: 1.3;
+}
+
+@media (max-width: 995px) {
+  nav {
+    position: absolute;
+    display: block;
+    top: 100%;
+    right: 0;
+    width: 30%;
+  }
+
+  nav .active {
+    display: block;
+  }
+
+  nav a {
+    display: block;
+    margin: 2rem 0;
+    padding-left: 20px;
+  }
+}
+
+@keyframes cursor {
+  to {
+    border-left: 3px solid var(--text);
+  }
+}
+
+@keyframes words {
+  0%,
+  30% {
+    content: "full-stack web developer";
+  }
+  31%,
+  60% {
+    content: "software developer";
+  }
+  90%,
+  100% {
+    content: "pen tester";
+  }
+}
+
+@media (max-width: 1000px) {
+  .home {
+    gap: 4em;
+  }
+}
+
+@media (max-width: 995px) {
+  .home {
+    flex-direction: column;
+    margin: 5rem 4rem;
+  }
+
+  .home .home-content h3 {
+    font-size: 2.5rem;
+  }
+
+  .home-content h1 {
+    font-size: 5rem;
+  }
+
+  .home-img img {
+    width: 70vw;
+    margin-top: 4rem;
+  }
+}
