@@ -52,7 +52,7 @@ h3 {
 
 header {
   margin-top: 20px;
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   width: 100%;
@@ -90,6 +90,19 @@ p {
 .home-content h3 {
   font-size: 4rem;
   margin-bottom: 1rem;
+}
+
+.gallerybox {
+  overflow-y: scroll;
+}
+
+.imgbox img {
+  object-fit: contain;
+  width: 450px;
+  height: 350px;
+  margin: 6px;
+  border-radius: 1rem;
+  border: 2px solid var(--foam)
 }
 
 .social-icons a {
