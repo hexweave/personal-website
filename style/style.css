@@ -1,28 +1,4 @@
 @font-face {
-  font-display: swap;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/inter-v19-latin-regular.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "Montserrat";
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-  src: url("../fonts/Montserrat-Regular.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "Avenir";
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-  src: url("../fonts/Avenir-Regular.woff2") format("woff2");
-}
-
-@font-face {
   font-family: "Iosevka";
   font-weight: normal;
   font-style: normal;
@@ -222,7 +198,6 @@ nav a.active {
   padding: 20px;
   color: var(--foam);
 }
-
 
 .box ul {
   color: var(--text);
