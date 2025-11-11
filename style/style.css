@@ -68,10 +68,12 @@ p {
   font-size: 1.6rem;
   padding: 5px;
   line-height: 1.4;
+  height: 5em;
+  overflow: auto;
 }
 
 h4 {
-  font-size: 20px;
+  font-size: 22px;
   padding: 4px;
   color: var(--pine);
 }
@@ -219,7 +221,7 @@ nav a.active {
 }
 
 .about-me {
-  width: 40%;
+  width: 50%;
 }
 
 .home {
