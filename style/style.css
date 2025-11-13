@@ -276,22 +276,14 @@ nav a.active {
   }
 }
 
-@media (max-width: 1000px) {
-  .home {
-    gap: 4em;
-  }
-}
-
-
-@media screen and (max-width:900px) {
+@media screen and (max-width:800px) {
   .column {
-    width: 50%;
+    width: 100%;
   }
 }
 
 @media (max-width: 995px) {
   .home {
-    flex-direction: column;
     margin: 5rem 4rem;
   }
 
@@ -309,6 +301,10 @@ nav a.active {
   }
 
   .about-box {
+    padding: 1rem;
+  }
+
+  .box {
     padding: 1rem;
   }
 }
