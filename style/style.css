@@ -265,7 +265,7 @@ nav a.active {
   }
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:1500px) {
   .column {
     width: 50%;
   }
@@ -296,6 +296,19 @@ nav a.active {
     margin-top: 4rem;
   }
 
+  .about-box {
+    width: 100%;
+  }
+
+  .box {
+    padding: 0px;
+  }
+
+  .gallery {
+    margin: 5rem 1rem;
+    min-height: 0px;
+  }
+
   nav {
     position: absolute;
     display: flex;
@@ -310,18 +323,5 @@ nav a.active {
 
   nav a {
     margin: 10px;
-  }
-
-  .about-box {
-    width: 100%;
-  }
-
-  .box {
-    padding: 0px;
-  }
-
-  .gallery {
-    margin: 5rem 1rem;
-    min-height: 0px;
   }
 }
