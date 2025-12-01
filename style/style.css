@@ -65,7 +65,7 @@ h2 {
 }
 
 h3 {
-  color: var(--pine)
+  color: var(--pine);
 }
 
 header {
@@ -117,11 +117,12 @@ nav a.active {
   background: var(--highlightHigh);
 }
 
-.row, .row > .column {
+.row,
+.row > .column {
   padding: 8px;
 }
 
-.row::after{
+.row::after {
   content: "";
   display: table;
   clear: both;
@@ -137,7 +138,7 @@ nav a.active {
   padding: 10px;
 }
 
-.content img{
+.content img {
   overflow-y: scroll;
   width: 100%;
   height: 300px;
@@ -177,7 +178,7 @@ nav a.active {
   animation: cursor 1.3s infinite;
 }
 
-.bio-box{
+.bio-box {
   border: 1px solid var(--foam);
   padding: 40px;
   width: 800px;
@@ -244,23 +245,19 @@ nav a.active {
   30% {
     content: "web developer";
   }
-  31%,
-  60% {
-    content: "dev-ops engineer";
-  }
   90%,
   100% {
     content: "software developer";
   }
 }
 
-@media screen and (max-width:1500px) {
+@media screen and (max-width: 1500px) {
   .column {
     width: 50%;
   }
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width: 700px) {
   .column {
     width: 100%;
   }
