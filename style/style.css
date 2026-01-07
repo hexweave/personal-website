@@ -91,8 +91,8 @@ header {
 }
 
 nav a {
-  font-size: 1.7rem;
   color: var(--text);
+  font-size: 1.7rem;
   text-decoration: none;
   background-image: linear-gradient(var(--foam), var(--foam));
   background-size: 0% 0.1em;
@@ -100,14 +100,14 @@ nav a {
   background-position-x: 0%;
   background-repeat: no-repeat;
   transition: background-size 0.2s ease-in-out;
-  margin-left: 1.5em;
+  margin: 1em;
 }
 
 nav a:hover,
-nav a:focus,
-nav a:active {
-  background-size: 100% 0.1em;
+nav a.active,
+nav a:focus {
   color: var(--foam);
+  background-size: 100% 0.1em;
 }
 
 /* id */
@@ -333,13 +333,6 @@ nav a:active {
   }
 
   nav a {
-    margin: 12px;
-  }
-
-  nav a:hover,
-  nav a.active {
-    color: var(--foam);
-    border-bottom: 1px solid var(--foam);
-    background-image: none !important;
+    margin: 0.7em;
   }
 }
