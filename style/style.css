@@ -93,15 +93,21 @@ header {
 nav a {
   font-size: 1.7rem;
   color: var(--text);
-  margin: 1.5rem;
-  transition: 0.2s ease;
-  border-bottom: 1px solid transparent;
+  text-decoration: none;
+  background-image: linear-gradient(var(--foam), var(--foam));
+  background-size: 0% 0.1em;
+  background-position-y: 100%;
+  background-position-x: 0%;
+  background-repeat: no-repeat;
+  transition: background-size 0.2s ease-in-out;
+  margin-left: 1.5em;
 }
 
 nav a:hover,
-nav a.active {
+nav a:focus,
+nav a:active {
+  background-size: 100% 0.1em;
   color: var(--foam);
-  border-bottom: 1px solid var(--foam);
 }
 
 /* id */
