@@ -335,4 +335,11 @@ nav a:active {
   nav a {
     margin: 12px;
   }
+
+  nav a:hover,
+  nav a.active {
+    color: var(--foam);
+    border-bottom: 1px solid var(--foam);
+    background-image: none !important;
+  }
 }
