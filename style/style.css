@@ -171,7 +171,7 @@ nav a:focus {
 }
 
 .gallery {
-  padding: 5rem 7% 5rem;
+  padding: 5rem 9% 5rem;
   width: 100%;
 }
 
@@ -213,7 +213,7 @@ nav a:focus {
 
 .bio-box {
   border: 1px solid var(--foam);
-  padding: 40px;
+  padding: 30px;
   width: 800px;
 }
 
@@ -225,7 +225,7 @@ nav a:focus {
 
 .inner-box {
   border: 1px solid var(--foam);
-  padding: 50px;
+  padding: 40px;
 }
 
 .inner-box ul {
@@ -297,12 +297,12 @@ nav a:focus {
 
 @media (max-width: 900px) {
   .outer-box {
-    margin: 5rem 1rem;
+    margin: 5rem 0rem;
     min-height: 0px;
   }
 
   .gallery {
-    margin: 5rem 1rem;
+    margin: 5rem 0rem;
     min-height: 0px;
   }
 
