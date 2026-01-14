@@ -93,13 +93,6 @@ header {
 nav a {
   color: var(--text);
   font-size: 1.7rem;
-  text-decoration: none;
-  background-image: linear-gradient(var(--foam), var(--foam));
-  background-size: 0% 0.1em;
-  background-position-y: 100%;
-  background-position-x: 0%;
-  background-repeat: no-repeat;
-  transition: background-size 0.2s ease-in-out;
   margin: 1em;
 }
 
@@ -107,7 +100,8 @@ nav a:hover,
 nav a.active,
 nav a:focus {
   color: var(--foam);
-  background-size: 100% 0.1em;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 /* id */
