@@ -71,15 +71,30 @@ h4 {
 header {
   background-color: var(--base);
   position: fixed;
-  top: 0;
-  left: 0;
+  top: 0px;
   width: 100%;
   padding: 1.5rem;
+  z-index: 9999;
+  border-bottom: 1px solid var(--foam);
+}
+
+.nav-item {
+  list-style: none;
+  padding: 20px;
+}
+
+.navbar {
+  min-height: 50px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  z-index: 9999;
-  border-bottom: 1px solid var(--foam);
+  padding: 0 24px;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .navbar .nav-link {
@@ -336,21 +351,19 @@ header {
     transform: translateY(-8px) rotate(-45deg);
   }
 
-  .navbar {
+  .nav-menu {
+    position: fixed;
     left: -100%;
-    top: 70px;
     gap: 0;
+    top: 70px;
     flex-direction: column;
     width: 100%;
     text-align: center;
     transition: 0.3s;
+    background-color: var(--base);
   }
 
-  .nav-link {
-    margin: 16px 0;
-  }
-
-  .navbar.active {
+  .nav-menu.active {
     left: 0;
   }
 }
