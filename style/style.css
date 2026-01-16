@@ -363,6 +363,10 @@ header {
     background-color: var(--base);
   }
 
+  .navbar {
+    justify-content: space-between;
+  }
+
   .nav-menu.active {
     left: 0;
   }
