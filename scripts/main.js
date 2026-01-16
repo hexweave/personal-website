@@ -1,21 +1,7 @@
-let myButton = document.getElementById("topBtn");
+const hamburger = document.querySelector(".hamburger");
+const navbar = document.querySelector(".navbar");
 
-window.onscroll = function () {
-  scrollFunction();
-};
-
-function scrollFunction() {
-  if (
-    document.body.scrollTop > 100 ||
-    document.documentElement.scrollTop > 100
-  ) {
-    myButton.style.display = "block";
-  } else {
-    myButton.style.display = "none";
-  }
-}
-
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
+hamburger.addEventListener("click", () => {
+  hamburger.classList.toggle("active");
+  navbar.classList.toggle("active");
+});
