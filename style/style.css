@@ -156,6 +156,7 @@ header {
   height: 300px;
   object-fit: cover;
   transition: transform 0.5s ease;
+  border-radius: 10px;
 }
 
 .content img:hover {
@@ -167,6 +168,7 @@ header {
   height: 300px;
   object-fit: cover;
   transition: transform 0.5s ease;
+  border-radius: 10px;
 }
 
 .content video:hover {
@@ -245,6 +247,7 @@ header {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  padding: 0px 30px;
 }
 
 .logo {
