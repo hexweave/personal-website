@@ -80,7 +80,7 @@ header {
 
 .nav-item {
   list-style: none;
-  padding: 20px;
+  padding: 15px;
 }
 
 .navbar {
@@ -191,7 +191,7 @@ header {
 }
 
 .gallery {
-  padding: 10% 9%;
+  padding: 13% 6%;
   width: 100%;
 }
 
@@ -262,7 +262,7 @@ header {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  padding: 0px 30px;
+  padding: 15% 7%;
 }
 
 .logo {
@@ -277,7 +277,7 @@ header {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  padding: 5rem 9% 5rem;
+  padding: 15% 8%;
 }
 
 .title h1 {
