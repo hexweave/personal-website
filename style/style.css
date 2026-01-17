@@ -175,8 +175,10 @@ header {
   border-radius: 10px;
 }
 
-.content img:hover {
-  transform: scale(1.1);
+@media (hover: hover) and (pointer: fine) {
+  .content img:hover {
+    transform: scale(1.1);
+  }
 }
 
 .content video {
@@ -187,8 +189,10 @@ header {
   border-radius: 10px;
 }
 
-.content video:hover {
-  transform: scale(1.1);
+@media (hover: hover) and (pointer: fine) {
+  .content video:hover {
+    transform: scale(1.1);
+  }
 }
 
 .gallery {
