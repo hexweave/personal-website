@@ -308,6 +308,7 @@ header {
 
 .bio-description {
   font-size: 17px;
+  color: var(--text);
   height: 100%;
 }
 
