@@ -79,6 +79,7 @@ header {
   border-bottom: 1px solid var(--foam);
 }
 
+/*Light Mode*/
 .light-mode {
   color: #575279;
   background-color: #faf4ed;
@@ -107,6 +108,12 @@ header {
     color: #575279;
   }
 
+  @media (hover: hover) and (pointer: fine) {
+    .social-icons a:hover {
+      color: #d7827e;
+    }
+  }
+
   .footer-name {
     color: #575279;
   }
@@ -117,6 +124,73 @@ header {
 
   .typing-text span::after {
     border-left: 3px solid #575279;
+  }
+
+  .bio-box {
+    background-color: #fffaf3;
+  }
+
+  .bio-description {
+    color: #575279;
+  }
+
+  .inner-box {
+    background-color: #fffaf3;
+  }
+
+  .content {
+    background-color: #fffaf3;
+  }
+
+  .form-container {
+    background-color: #fffaf3;
+  }
+
+  .form-label {
+    color: #575279;
+  }
+
+  .input-group textarea {
+    background-color: #f4ede8;
+    color: #575279;
+  }
+
+  .input-group input {
+    background-color: #f4ede8;
+    color: #575279;
+  }
+
+  .links {
+    color: #575279;
+  }
+
+  @media (hover: hover) and (pointer: fine) {
+    .links:hover {
+      color: #56949f;
+    }
+  }
+
+  .btn {
+    color: #f4ede8;
+    background-color: #286983;
+  }
+
+  @media (hover: hover) and (pointer: fine) {
+    .btn:hover {
+      background-color: #9893a5;
+    }
+  }
+
+  li {
+    color: #575279;
+  }
+
+  b {
+    color: #56949f;
+  }
+
+  h4 {
+    color: #286983;
   }
 }
 
