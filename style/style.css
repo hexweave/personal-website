@@ -390,6 +390,61 @@ header {
   line-height: 1.3;
 }
 
+.link-container {
+  display: flex;
+}
+
+.links {
+  color: var(--text);
+  margin: 10px 20px 0px 0px;
+  font-size: 13px;
+  transition: color 0.5s ease-out;
+}
+
+.links:hover {
+  color: var(--foam);
+}
+
+.contact-link-title {
+  font-size: 14px;
+  padding: 10px 0px 0px 0px;
+}
+
+.hr-text {
+  border: 0;
+  line-height: 1em;
+  position: relative;
+  outline: 0;
+  padding: 0px 0px 0px 0px;
+  color: var(--subtle);
+  text-align: center;
+  opacity: 0.5;
+  font-size: 14px;
+  &:before {
+    content: "";
+    background: linear-gradient(
+      to right,
+      transparent,
+      var(--subtle),
+      transparent
+    );
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 2px;
+  }
+  &:after {
+    content: attr(none);
+    position: relative;
+    display: inline-block;
+    padding: 0 0.5em;
+    line-height: 1.5em;
+    color: var(--subtle);
+    background-color: var(--overlay);
+  }
+}
+
 @keyframes cursor {
   to {
     border-left: 3px solid var(--text);
