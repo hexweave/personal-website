@@ -401,8 +401,10 @@ header {
   transition: color 0.5s ease-out;
 }
 
-.links:hover {
-  color: var(--foam);
+@media (hover: hover) and (pointer: fine) {
+  .links:hover {
+    color: var(--foam);
+  }
 }
 
 .contact-link-title {
