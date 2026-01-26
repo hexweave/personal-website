@@ -104,6 +104,14 @@ header {
     color: #56949f;
   }
 
+  .nav-menu {
+    background-color: #faf4ed;
+  }
+
+  .bar {
+    background-color: #575279;
+  }
+
   .social-icons a {
     color: #575279;
   }
