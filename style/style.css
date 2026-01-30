@@ -54,7 +54,7 @@ ul {
 }
 
 b {
-  color: var(--iris);
+  color: var(--foam);
 }
 
 h1 {
@@ -161,7 +161,7 @@ header {
 @media (hover: hover) and (pointer: fine) {
   .btn:hover {
     cursor: pointer;
-    background-color: var(--overlay);
+    background-color: #286983;
   }
 }
 
@@ -189,8 +189,9 @@ header {
 
 .navbar .nav-link {
   color: var(--text);
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   margin: 1.3em;
+  font-weight: bold;
   transition: color 0.5s ease-out;
 }
 
@@ -223,6 +224,7 @@ header {
   list-style: none;
   text-align: center;
   background-color: var(--base);
+  border-top: 1px solid var(--highlightMed);
 }
 
 .footer-link {
@@ -231,7 +233,7 @@ header {
 }
 
 .footer-name {
-  color: var(--text);
+  color: var(--muted);
   font-size: 1.6rem;
   padding: 0rem 0rem 1.5rem 0rem;
 }
@@ -240,13 +242,13 @@ header {
   display: inline-flex;
   font-size: 2.6rem;
   padding: 1.5rem 1rem 2rem 1rem;
-  color: var(--text);
+  color: var(--muted);
   transition: color 0.5s ease-out;
 }
 
 @media (hover: hover) and (pointer: fine) {
   .social-icons a:hover {
-    color: var(--rose);
+    color: var(--text);
   }
 }
 
@@ -358,6 +360,7 @@ header {
   font-size: 1.6rem;
   color: var(--text);
   height: 100%;
+  padding-top: 5px;
 }
 
 .inner-box {
@@ -400,15 +403,18 @@ header {
 }
 
 .links {
-  color: var(--text);
+  color: var(--subtle);
   margin: 10px 20px 0px 0px;
-  font-size: 13px;
-  transition: color 0.5s ease-out;
+  font-size: 14px;
+  background-color: var(--overlay);
+  padding: 5px 12px;
+  border-radius: 10px;
 }
 
 @media (hover: hover) and (pointer: fine) {
   .links:hover {
-    color: var(--foam);
+    color: var(--text);
+    background-color: var(--highlightMed);
   }
 }
 
