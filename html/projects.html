@@ -111,75 +111,74 @@
             <h2>Weather Fetcher</h2>
           </div>
           <div class="column">
-            <div class="content">
-              <a
-                href="https://github.com/lapointek/kaplay-games"
-                target="_blank"
+            <div
+              class="content"
+              onclick="
+                window.open(
+                  'https://github.com/lapointek/kaplay-games',
+                  '_blank',
+                )
+              "
+            >
+              <video
+                autoplay
+                muted
+                playsinline
+                loop
+                poster="../images/kaplay-games.webp"
               >
-                <video
-                  autoplay
-                  muted
-                  playsinline
-                  loop
-                  poster="../images/kayplay-games.webp"
-                >
-                  <source src="../videos/kaplay-game.webm" type="video/webm" />
-                  <img
-                    src="../images/kayplay-games.webp"
-                    alt="Kaplay Games"
-                  /></video
-              ></a>
+                <source src="../videos/kaplay-game.webm" type="video/webm" />
+                <img src="../images/kaplay-games.webp" alt="Kaplay Games" />
+              </video>
             </div>
             <h2>Kaplay Games</h2>
           </div>
           <div class="column">
-            <div class="content">
-              <a href="https://github.com/lapointek/realm-rush" target="_blank">
-                <video
-                  autoplay
-                  muted
-                  playsinline
-                  loop
-                  poster="../images/realm-rush.webp"
-                >
-                  <source src="../videos/realm-rush.webm" type="video/webm" />
-                  <img
-                    src="../images/realm-rush.webp"
-                    alt="Realm Rush"
-                  /></video
-              ></a>
+            <div
+              class="content"
+              onclick="
+                window.open('https://github.com/lapointek/realm-rush', '_blank')
+              "
+            >
+              <video
+                autoplay
+                muted
+                playsinline
+                loop
+                poster="../images/realm-rush.webp"
+              >
+                <source src="../videos/realm-rush.webm" type="video/webm" />
+                <img src="../images/realm-rush.webp" alt="Realm Rush" />
+              </video>
             </div>
             <h2>Realm Rush</h2>
           </div>
           <div class="column">
-            <div class="content">
-              <a
-                href="https://github.com/lapointek/block-breaker"
-                target="_blank"
+            <div
+              class="content"
+              onclick="
+                window.open(
+                  'https://github.com/lapointek/block-breaker',
+                  '_blank',
+                )
+              "
+            >
+              <video
+                autoplay
+                muted
+                playsinline
+                loop
+                poster="../images/block-breaker.webp"
               >
-                <video
-                  autoplay
-                  muted
-                  playsinline
-                  loop
-                  poster="../images/block-breaker.webp"
-                >
-                  <source
-                    src="../videos/block-breaker.webm"
-                    type="video/webm"
-                  />
-                  <img
-                    src="../images/block-breaker.webp"
-                    alt="block-breaker"
-                  /></video
-              ></a>
+                <source src="../videos/block-breaker.webm" type="video/webm" />
+                <img src="../images/block-breaker.webp" alt="block-breaker" />
+              </video>
             </div>
             <h2>Block Breaker</h2>
           </div>
           <div class="column">
             <div
               class="content"
-              style="position: relative; display: inline-block; cursor: pointer"
               onclick="
                 window.open(
                   'https://github.com/lapointek/project-boost',
@@ -199,24 +198,7 @@
                 <source src="../videos/project-boost.webm" type="video/webm" />
                 <img src="../images/project-boost.webp" alt="Project Boost" />
               </video>
-              <div
-                style="
-                  position: absolute;
-                  top: 0;
-                  left: 0;
-                  width: 100%;
-                  height: 100%;
-                "
-              ></div>
             </div>
-
-            <script>
-              document.addEventListener("DOMContentLoaded", () => {
-                const video = document.getElementById("project-boost-video");
-                video.play().catch(() => console.log("Autoplay blocked"));
-              });
-            </script>
-
             <h2>Project Boost</h2>
           </div>
         </div>
