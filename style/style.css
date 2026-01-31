@@ -1,9 +1,9 @@
 @font-face {
-  font-family: "Poppins";
+  font-family: "Wotfard";
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  src: url("../fonts/Poppins-Regular.woff2") format("woff2");
+  src: url("../fonts/wotfard-regular-webfont.woff2") format("woff2");
 }
 
 * {
@@ -13,7 +13,7 @@
   text-decoration: none;
   border: none;
   outline: none;
-  font-family: "Poppins", sans-serif;
+  font-family: "Wotfard", sans-serif;
 }
 
 body {
@@ -65,7 +65,7 @@ h1 {
 
 h2 {
   padding: 3px;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   color: var(--subtle);
   text-align: center;
 }
@@ -75,7 +75,7 @@ h3 {
 }
 
 h4 {
-  font-size: 2rem;
+  font-size: 2.2rem;
   color: var(--pine);
 }
 
@@ -101,7 +101,7 @@ header {
 }
 
 .inner-box li {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 
 .form-body {
@@ -130,7 +130,7 @@ header {
 
 .form-label {
   color: var(--text);
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 
 .input-group input {
@@ -158,7 +158,7 @@ header {
   padding: 10px;
   width: 100%;
   color: var(--text);
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   background-color: var(--pine);
 }
 
@@ -197,10 +197,9 @@ header {
 
 .navbar .nav-link {
   color: var(--text);
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   margin: 1rem;
   z-index: 999;
-  font-weight: bold;
   transition: all 0.3s ease-out;
   padding: 5px 10px;
   border-radius: 5px;
@@ -239,18 +238,17 @@ header {
 
 .footer-link {
   color: var(--text);
-  font-size: 1.6rem;
 }
 
 .footer-name {
   color: var(--muted);
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   padding: 0rem 0rem 1.5rem 0rem;
 }
 
 .social-icons a {
   display: inline-flex;
-  font-size: 2.6rem;
+  font-size: 2.7rem;
   padding: 1.5rem 1rem 2rem 1rem;
   color: var(--muted);
   transition: color 0.5s ease-out;
@@ -340,7 +338,7 @@ header {
 }
 
 .typing-text {
-  font-size: 3.3rem;
+  font-size: 3.4rem;
   min-width: 310px;
 }
 
@@ -369,7 +367,7 @@ header {
 }
 
 .bio-description {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   color: var(--text);
   height: 100%;
   padding-top: 5px;
@@ -390,7 +388,7 @@ header {
 }
 
 .logo {
-  font-size: 3rem;
+  font-size: 3.1rem;
   padding: 0px;
   font-family: "Poppins", sans-serif;
   color: var(--pine);
@@ -417,7 +415,7 @@ header {
 .links {
   color: var(--subtle);
   margin: 10px 20px 0px 0px;
-  font-size: 14px;
+  font-size: 1.5rem;
   background-color: var(--overlay);
   padding: 5px 12px;
   border-radius: 10px;
@@ -432,7 +430,7 @@ header {
 }
 
 .contact-link-title {
-  font-size: 14px;
+  font-size: 1.6rem;
   padding: 10px 0px 0px 0px;
 }
 
