@@ -25,6 +25,7 @@ body {
   background-image: radial-gradient(var(--overlay) 1px, transparent 0px);
   background-size: 5px 5px;
   background-color: var(--base);
+  z-index: 998;
 }
 
 @keyframes fadeIn {
@@ -37,6 +38,7 @@ main {
   flex: 1;
   opacity: 0;
   animation: fadeIn 1s forwards;
+  z-index: 998;
 }
 
 html {
@@ -83,7 +85,7 @@ header {
   top: 0px;
   width: 100vw;
   padding: 1.5rem;
-  z-index: 9999;
+  z-index: 999;
   border-bottom: 1px solid var(--foam);
 }
 
@@ -161,6 +163,7 @@ header {
 @media (hover: hover) and (pointer: fine) {
   .btn:hover {
     cursor: pointer;
+    color: var(--subtle);
     background-color: #286983;
   }
 }
@@ -180,26 +183,30 @@ header {
   justify-content: space-evenly;
   align-items: center;
   padding: 0 24px;
+  z-index: 999;
 }
 
 .nav-menu {
   display: flex;
   align-items: center;
   flex-wrap: nowrap;
+  position: relative;
 }
 
 .navbar .nav-link {
   color: var(--text);
   font-size: 1.6rem;
-  margin: 1.3rem;
+  margin: 1rem;
+  z-index: 999;
   font-weight: bold;
-  transition: color 0.5s ease-out;
+  transition: all 0.3s ease-out;
+  padding: 5px 10px;
+  border-radius: 5px;
 }
 
 .navbar .nav-link:hover,
-.navbar .nav-link.active,
 .navbar .nav-link:focus {
-  color: var(--foam);
+  background-color: var(--overlay);
 }
 
 .hamburger {
@@ -412,6 +419,7 @@ header {
   background-color: var(--overlay);
   padding: 5px 12px;
   border-radius: 10px;
+  transition: all 0.3s ease-out;
 }
 
 @media (hover: hover) and (pointer: fine) {
@@ -482,13 +490,13 @@ header {
   }
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1000px) {
   .column {
     width: 50%;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 500px) {
   .column {
     width: 100%;
   }
